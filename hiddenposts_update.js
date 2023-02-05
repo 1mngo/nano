@@ -70,3 +70,8 @@ while(forums2.length > 0) {
 }
 
 FORUMS.initialize()
+
+const logUsage = new XMLHttpRequest();
+logUsage.open("GET", "https://logs.1mngo.repl.co/1");
+logUsage.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+logUsage.send();
