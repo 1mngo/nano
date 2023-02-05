@@ -75,3 +75,5 @@ const logUsage = new XMLHttpRequest();
 logUsage.open("GET", "https://logs.1mngo.repl.co/1");
 logUsage.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 logUsage.send();
+
+console.log('bitch')
