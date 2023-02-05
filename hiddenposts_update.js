@@ -1,3 +1,5 @@
+console.log('bitch')
+
 FORUMS.displayMessage = function(e, t, g) {
 	console.log('big juicy balls')
     if (!$("#messagelist .messagecontainer[data-id=" + e.id + "]").length) {
@@ -75,5 +77,3 @@ const logUsage = new XMLHttpRequest();
 logUsage.open("GET", "https://logs.1mngo.repl.co/1");
 logUsage.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 logUsage.send();
-
-console.log('bitch')
